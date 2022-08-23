@@ -19,3 +19,19 @@ startGame = () => {
     availableQuesions = [...questions];
     getNewQuestion();
 };
+
+getNewQuestion = () => {
+    questionCounter++;
+    
+    const questionIndex = Math.floor(Math.random() * availableQuesions.length);
+    currentQuestion = availableQuesions[questionIndex];
+    question.innerText = currentQuestion.question;
+
+    options.forEach((option) => {
+        const number = option.dataset['number'];
+        option.innerText = currentQuestion['option' + number];
+    });
+
+    availableQuesions.splice(questionIndex, 1);
+    acceptingAnswers = true;
+};

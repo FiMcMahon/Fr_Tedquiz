@@ -11,6 +11,18 @@ let availableQuesions = [];
 
 let questions = [];
 
+fetch('questions.json')
+    .then((res) => {
+        return res.json();
+    })
+    .then((loadedQuestions) => {
+        questions = loadedQuestions;
+        startGame();
+    })
+    .catch((err) => {
+        console.error(err);
+    });
+    
 //Constants
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 5;

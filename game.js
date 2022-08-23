@@ -2,7 +2,7 @@ const question = document.getElementById('question');
 const options = Array.from(document.getElementsByClassName('options'));
 const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
-
+const progressBarFull = document.getElementById('progressBarFull');
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;

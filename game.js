@@ -22,7 +22,7 @@ fetch('questions.json')
     .catch((err) => {
         console.error(err);
     });
-    
+
 //Constants
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 5;
@@ -70,17 +70,17 @@ options.forEach((option) => {
         const classToApply =
         selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
-    if (classToApply === 'correct') {
+        if (classToApply === 'correct') {
         incrementScore(CORRECT_BONUS);
-    }
+        }
 
-    selectedOption.parentElement.classList.add(classToApply);
+        selectedOption.parentElement.classList.add(classToApply);
 
-    setTimeout(() => {
-        selectedOption.parentElement.classList.remove(classToApply);
-        getNewQuestion();
-    }, 1000);
-});
+        setTimeout(() => {
+            selectedOption.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 1000);
+    });
 });
 incrementScore = (num) => {
     score += num;

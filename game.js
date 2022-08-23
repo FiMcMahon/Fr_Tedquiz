@@ -22,7 +22,7 @@ startGame = () => {
 
 getNewQuestion = () => {
     questionCounter++;
-    
+
     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
     currentQuestion = availableQuesions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -35,3 +35,11 @@ getNewQuestion = () => {
     availableQuesions.splice(questionIndex, 1);
     acceptingAnswers = true;
 };
+
+options.forEach((option) => {
+    option.addEventListener('click', (e) => {
+        if (!acceptingAnswers) return;
+
+        acceptingAnswers = false;
+        const selectedOption = e.target;
+        const selectedAnswer = selectedOption.dataset['number'];

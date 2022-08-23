@@ -103,7 +103,7 @@
     border: 0.1rem solid #FF8200;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #FF8200;
+    color: #1e160e;
     background-color: white;
   }
   
@@ -155,3 +155,97 @@ input::placeholder {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+}
+
+@media screen and (max-width: 768x) {
+
+#father-ted-home{
+  width:80vw;
+  height:40vh;
+  margin-bottom: 2.5rem;
+}
+
+h1{
+  font-size:4.8rem;
+}
+.question{
+  font-size:2.8rem;
+}
+.end-image{
+  margin-top:4rem;
+}
+}
+
+
+@media screen and (max-width:425px) {
+  h1{
+    font-size:2.2rem;
+  }
+  .question{
+    font-size:2rem;
+  }
+  #father-ted-home{
+    width:80vw;
+    height:40vh;
+    margin-bottom: 2.5rem;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .options{
+    font-size:1.5rem;
+  }
+ 
+ 
+  }
+  @media screen and (max-width:320px){
+    h1{font-size:1.8rem;}
+
+    .btn{font-size:1.6rem;}
+
+    #father-ted-home{
+      width:70vw;
+      height:30vh;
+      margin-bottom: 2.5rem;
+    }
+
+    .options{
+      font-size:1.6rem;
+    }
+
+   
+  }
+
+  @media screen and (max-width: 768x) {
+    .hud-prefix {
+      font-size: 3rem;
+    }
+  }
+  
+    
+    @media screen and (max-width:425px) {
+      .hud-main-text {
+        font-size:5rem;
+        margin-top: 2rem;
+      }
+     
+      }
+      @media screen and (max-width:375px) {
+        .hud-main-text {
+          font-size:5rem;
+          margin-top: 2rem;
+        }
+     
+      }
+      @media screen and (max-width:320px){
+        .hud-main-text {
+          font-size:2.5rem;
+          margin-top: 2rem;
+        }
+     
+      }

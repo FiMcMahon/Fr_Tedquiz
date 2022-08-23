@@ -29,6 +29,7 @@ getNewQuestion = () => {
         return window.location.assign('end.html');
     }
     questionCounter++;
+    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
 
     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
     currentQuestion = availableQuesions[questionIndex];
@@ -66,3 +67,7 @@ options.forEach((option) => {
     }, 1000);
 });
 });
+incrementScore = (num) => {
+    score += num;
+    scoreText.innerText = score;
+};

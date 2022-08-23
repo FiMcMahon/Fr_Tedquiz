@@ -1,0 +1,1 @@
+const saveScoreBtn = document.getElementById('saveScoreBtn');

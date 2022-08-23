@@ -48,3 +48,19 @@ options.forEach((option) => {
         acceptingAnswers = false;
         const selectedOption = e.target;
         const selectedAnswer = selectedOption.dataset['number'];
+
+        const classToApply =
+        selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+
+    if (classToApply === 'correct') {
+        incrementScore(CORRECT_BONUS);
+    }
+
+    selectedOption.parentElement.classList.add(classToApply);
+
+    setTimeout(() => {
+        selectedOption.parentElement.classList.remove(classToApply);
+        getNewQuestion();
+    }, 1000);
+});
+});

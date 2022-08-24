@@ -66,10 +66,9 @@ Screenshots of all these results can be found below. All the warnings about unus
 
 ![Jigsaw CSS validator](/assets/readme_images/W3cssvalidator.PNG)
 ![W3C HTML Validator](/assets/readme_images/W3C_html_validator.PNG)
-![JShint]
-(/assets/readme_images/endjs.PNG) 
-(/assets/readme_images/gamejs.PNG)
-(/assets/readme_images/highscoresjs.PNG)
+![JShint](/assets/readme_images/endjs.PNG) 
+![JShint](/assets/readme_images/gamejs.PNG)
+![JShint](/assets/readme_images/highscoresjs.PNG)
 
 ### Responsivity Testing
 This website allowed me to select a number of devices with different size screens and viewports and see how my website looked on each of them.

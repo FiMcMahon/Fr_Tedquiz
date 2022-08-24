@@ -7,10 +7,19 @@
   .high-score {
     font-size: 2.8rem;
     margin-bottom: 0.5rem;
-    background-color:#FFEAAE ;
+    background-color:rgb(160, 159, 159);
   }
   
   .high-score:hover {
     transform: scale(1.025);
   }
+
+  #totalScore{
+    color:#FFEAAE;
+  }
   
+  @media screen and (max-width:425px){
+    .high-score {
+      font-size: 2rem;
+  }
+}

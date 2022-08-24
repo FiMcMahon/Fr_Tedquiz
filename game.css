@@ -62,3 +62,49 @@
     background-color: #FF8200;
     width: 0%;
   }
+
+  @media screen and (max-width: 768x) {
+    .hud-prefix {
+      font-size: 3rem;
+    }
+  }
+  #progressText{
+    font-size: 2rem;
+ 
+  }
+  #question{
+    font-size:2.2rem;
+  }
+
+  .options{
+    font-size:1.6rem;
+  }
+    
+  @media screen and (max-width:425px) {
+  .hud-main-text {
+    font-size:5rem;
+    margin-top: 2rem;
+  }
+  .hud-prefix {
+    font-size: 2rem;
+  }
+
+  #progressText{
+    font-size: 2rem;
+    }
+    @media screen and (max-width:375px) {
+      
+  .hud-prefix {
+    font-size: 2rem;
+    }
+    }
+
+  @media screen and (max-width:320px){
+  .hud-main-text {
+    font-size:2.5rem;
+    margin-top: 2rem;
+        }
+  .hud-prefix {
+    font-size: 2rem;
+        }
+      }

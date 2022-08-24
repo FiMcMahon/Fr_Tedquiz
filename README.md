@@ -5,13 +5,13 @@ The live website can be found at [Father Ted Quiz](https://fimcmahon.github.io/F
 
 # Contents
 
-* [Description](https://github.com/FiMcMahon/Fr_Tedquiz/blob/c38d384d6b4210a99d68bb37094e2943f7670de1/README.md#L17)
-* [Theme](https://github.com/FiMcMahon/Fr_Tedquiz/blob/main/README.md#L21)
-* [Features](https://github.com/FiMcMahon/Fr_Tedquiz/blob/main/README.md#L29)
-* [Testing](https://github.com/FiMcMahon/Fr_Tedquiz/blob/main/README.md#L55)
-* [Technologies](https://github.com/FiMcMahon/Fr_Tedquiz/blob/main/README.md#L82)
-* [Deployment](https://github.com/FiMcMahon/Fr_Tedquiz/blob/main/README.md#L98)
-* [Acknowledgements](https://github.com/FiMcMahon/Fr_Tedquiz/blob/main/README.md#L105)
+* [Description](https://github.com/FiMcMahon/Fr_Tedquiz/blob/main/README.md#description)
+* [Theme](https://github.com/FiMcMahon/Fr_Tedquiz/blob/main/README.md#theme)
+* [Features](https://github.com/FiMcMahon/Fr_Tedquiz/blob/main/README.md#features)
+* [Testing](https://github.com/FiMcMahon/Fr_Tedquiz/blob/main/README.md#testing)
+* [Technologies](https://github.com/FiMcMahon/Fr_Tedquiz/blob/main/README.md#technologies)
+* [Deployment](https://github.com/FiMcMahon/Fr_Tedquiz/blob/main/README.md#deployment)
+* [Acknowledgements](https://github.com/FiMcMahon/Fr_Tedquiz/blob/main/README.md#acknowledgements)
 
 
 ## Description

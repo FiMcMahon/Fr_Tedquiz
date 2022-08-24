@@ -1,7 +1,8 @@
 # Fr_Tedquiz
 A simple quiz game about the TV show Father Ted using HTML,CSS &amp; JavaScript
 
-The live website can be found at 
+The live website can be found at [Father Ted Quiz](https://fimcmahon.github.io/Fr_Tedquiz/)
+
 # Contents
 
 *[Description]
@@ -13,7 +14,7 @@ The live website can be found at
 *[Deployment]
 *[Credits]
 *[Acknowledgements]
-*[Author Info]
+
 
 ## Description
 This project was designed to be fun.The information provided is basic, the quiz questions will give a user who is familiar with the TV show Father Ted, and those who are not a fun way to learn some trivia about the show.
@@ -27,7 +28,8 @@ The theme chosen for this project was based on TV Show Father Ted. An irreverent
 black
 
 ## Homepage
-![Home Page](assets/readme_images/quizhomepage.PNG)
+
+![Home Page](assets/readme_images/quiz_homepage.PNG)
 The home page features an image of the characters in the show, and buttons to either begin the quiz or view the highscores.
 
 ![Quiz Page](assets/readme_images/quizpage.PNG)
@@ -38,18 +40,52 @@ In the future I would work on the UI design as this is very simplistic and not o
 I would also add social media sharing tags.
 
 ## Testing
-Testing was done in a number of ways.
+
 ### Manual Testing
 This was undertaken by myself. I tested all links to confirm they worked and opened on a new blank page and went where they were supposed to. I used Chrome Dev Tools to confirm the site worked as it should and it displayed correctly across different screen sizes and browsers.
 
-## Online Testing
+### Online Testing
 All code was run through a validator and returned zero errors. These validator sites were:
-•	[Jigsaw CSS validator] (https://jigsaw.w3.org/css-validator/#validate_by_uri)
-•	[W3C HTML Validator](https://validator.w3.org/)
-•	[JSHint JavaScript validator] (https://jshint.com/)
+*[Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
+*[W3C HTML Validator](https://validator.w3.org/)
+*[JSHint JavaScript validator](https://jshint.com/)
 
 Screenshots of all these results can be found below. All the warnings about unused variables can be ignored as these variables are used in other files.
 
 ![Jigsaw CSS validator](/assets/readme_images/W3cssvalidator.PNG)
 ![W3C HTML Validator](/assets/readme_images/W3C_html_validator.PNG)
-![JShint](/assets/readme_images/endjs.PNG) (/assets/readme_images/gamejs.PNG) /assets/readme_images/highscoresjs.PNG
+![JShint]
+(/assets/readme_images/endjs.PNG) 
+(/assets/readme_images/gamejs.PNG)
+(/assets/readme_images/highscoresjs.PNG)
+
+### Responsivity Testing
+This website allowed me to select a number of devices with different size screens and viewports and see how my website looked on each of them.
+*[Responsive Checker](https://responsivechecker.net/responsive)
+
+#### Google Lighthouse
+![Lighthouse](/assets/readme_images/lighthouse.PNG)
+
+## Technologies
+* [HTML](https://devdocs.io/html/)
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript)
+* [GitHub](https://github.com/)
+* [GitPod](https://www.gitpod.io/docs/)
+* [Markdown](https://markdown-guide.readthedocs.io/en/latest/)
+* [Google Fonts](https://fonts.google.com/)
+
+### Resources
+* [Code Institute Curriculum](https://codeinstitute.net/)
+* [YouTube](https://www.youtube.com/watch?v=u98ROZjBWy8) - Build a Quiz App by James Q Quick
+* [W3Schools.com](https://www.w3schools.com/)
+* [MDN Web Docs](https://developer.mozilla.org/en-US/)
+ 
+## Deployment
+This project was deployed using GitHub pages.
+* Inside the repository click on the button marked "Settings".
+* In the side bar on the left click on the button marked "Pages".
+* Under the source title you have two drop down menus, make sure the first is set to "Main" and the second to "Root" and click "Save".
+
+## Credits
+
